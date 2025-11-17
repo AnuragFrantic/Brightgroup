@@ -41,6 +41,7 @@ const About = () => {
             para: "27AAECB4964F1ZM"
         },
         {
+
             image: nature,
             title: "CIN No.",
             para: "U90001MH2011PTC215803"
@@ -80,7 +81,7 @@ const About = () => {
                     </div>
                     <div className="grid lg:grid-cols-2 grid-cols-1 pt-20 gap-8 items-center">
 
-                        <div className="col-span-1"data-aos="flip-left" data-aos-duration="1000">
+                        <div className="col-span-1" data-aos="flip-left" data-aos-duration="1000">
                             <img src={about} alt='image' className='rounded-[10px] border-l-4 border-[#e87e00]' />
                         </div>
                         <div className="cols-span-1" data-aos="fade-left" data-aos-duration="2000">
@@ -90,7 +91,7 @@ const About = () => {
                                     <span className='font-[600] textorange'>Bright Environment Solution Pvt Ltd</span> was established in year of <span className='font-[600] textorange'>2010</span>. We are leading manufacturers and wholesaler of high quality <span className='font-[600] textorange'>Pyrolysis oil, Diesel Oil, etc</span>. Our range is widely acclaimed for neck-deep first-class features like quality, efficiency and durability. All the products we offer conform to international quality standards and accomplish the complete demand of customers. Our products find usage in various industrial applications and gives efficient performance by reducing the down time of boilers and furnances occurring due to other low quality oils. Our oil is a direct substitute to LDO and industrial diesel, at a lesser rate.
                                 </p>
                                 <div className='pt-4 '>
-                                    <button className='bgorange text-white rounded-[5px] px-5 py-2 cursor-pointer' onClick={()=> navigate('/about')}>Know More</button>
+                                    <button className='bgorange text-white rounded-[5px] px-5 py-2 cursor-pointer' onClick={() => navigate('/about')}>Know More</button>
                                 </div>
                             </div>
                         </div>
