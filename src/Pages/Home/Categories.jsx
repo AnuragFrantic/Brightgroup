@@ -24,37 +24,11 @@ const Categories = () => {
                     <div className="grid-cols-1">
                         <div className="col-span-1">
                             <p className='pt-5 md:text-[20px] text-[15px]'>
-                            We <span className='textorange'>"Bright Environment Solution Pvt Ltd"</span> was established in year of <span className='textorange'>2010</span>. We are leading manufacturers and wholesaler of high quality <span className='textorange'>Pyrolysis oil, Diesel Oil, etc</span>.
+                                We <span className='textorange'>"Bright Environment Solution Pvt Ltd"</span> was established in year of <span className='textorange'>2010</span>. We are leading manufacturers and wholesaler of high quality <span className='textorange'>Pyrolysis oil, Diesel Oil, etc</span>.
                             </p>
                         </div>
                     </div>
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 pt-10 pb-5">
-
-                        <div className="col-span-1" data-aos="fade-right" data-aos-duration="3000">
-                            <div className="w-full h-full p-4 rounded-[10px] " style={{ backgroundColor: "color-mix(in srgb, #e87e00, transparent 90%)" }}>
-                                <img src={dieseloil} alt='image' className='w-full h-[200px] rounded-[10px]' data-aos="flip-left" data-aos-duration="2000" />
-                                <h3 className='text-black font-[600] md:text-[25px] text-[20px] py-4'>
-                                    Diesel Oil
-                                </h3>
-                                <ul className='space-y-3'>
-                                    <li className="md:text-[17px] text-[14px] flex items-center gap-2">
-                                        <FaCheckCircle className="text-orange-500" />
-                                        Light Diesel Oil
-                                    </li>
-                                    <li className="md:text-[17px] text-[14px] flex items-center gap-2">
-                                        <FaCheckCircle className="text-orange-500" />
-                                        Industrial Diesel Oil
-                                    </li>
-                                    <li className="md:text-[17px] text-[14px] flex items-center gap-2">
-                                        <FaCheckCircle className="text-orange-500" />
-                                        Furnace Diesel Oil
-                                    </li>
-                                </ul>
-                                <div className='pt-4'>
-                                    <button className='bgorange text-white rounded-[5px] md:px-5 px-3 py-1 cursor-pointer' onClick={()=> navigate('/diesel')}>View More</button>
-                                </div>
-                            </div>
-                        </div>
                         <div className="col-span-1" data-aos="fade-up" data-aos-duration="3000">
                             <div className="w-full h-full p-4 rounded-[10px] " style={{ backgroundColor: "color-mix(in srgb, #e87e00, transparent 90%)" }}>
                                 <img src={pyrolysisoil} alt='image' className='w-full h-[200px] rounded-[10px]' data-aos="flip-left" data-aos-duration="2000" />
@@ -80,6 +54,32 @@ const Categories = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-span-1" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="w-full h-full p-4 rounded-[10px] " style={{ backgroundColor: "color-mix(in srgb, #e87e00, transparent 90%)" }}>
+                                <img src={dieseloil} alt='image' className='w-full h-[200px] rounded-[10px]' data-aos="flip-left" data-aos-duration="2000" />
+                                <h3 className='text-black font-[600] md:text-[25px] text-[20px] py-4'>
+                                    Diesel Oil
+                                </h3>
+                                <ul className='space-y-3'>
+                                    <li className="md:text-[17px] text-[14px] flex items-center gap-2">
+                                        <FaCheckCircle className="text-orange-500" />
+                                        Light Diesel Oil
+                                    </li>
+                                    <li className="md:text-[17px] text-[14px] flex items-center gap-2">
+                                        <FaCheckCircle className="text-orange-500" />
+                                        Industrial Diesel Oil
+                                    </li>
+                                    <li className="md:text-[17px] text-[14px] flex items-center gap-2">
+                                        <FaCheckCircle className="text-orange-500" />
+                                        Furnace Diesel Oil
+                                    </li>
+                                </ul>
+                                <div className='pt-4'>
+                                    <button className='bgorange text-white rounded-[5px] md:px-5 px-3 py-1 cursor-pointer' onClick={() => navigate('/diesel')}>View More</button>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="col-span-1" data-aos="fade-left" data-aos-duration="3000">
                             <div className="w-full h-full p-4 rounded-[10px] " style={{ backgroundColor: "color-mix(in srgb, #e87e00, transparent 90%)" }}>
                                 <img src={carbonblack} alt='image' className='w-full h-[200px] rounded-[10px]' data-aos="flip-left" data-aos-duration="2000" />
